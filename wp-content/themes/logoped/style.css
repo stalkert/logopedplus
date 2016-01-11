@@ -112,6 +112,9 @@ a#yellow:hover {
 #content>div:last-child>p{
     margin-top: 20px;
 }
+#content{
+    margin-bottom: 40px;
+}
 #bg-wrapper-footer{
         background-color: #E83556;
         padding: 40px 0;
