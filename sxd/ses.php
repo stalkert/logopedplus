@@ -1,14 +1,6 @@
 <?php
 $SES = array (
-<<<<<<< HEAD
-<<<<<<< HEAD
-  '0f04f065562c7d064b6ed4a02cd8b609' => 
-=======
-  '64a2d3a06b38eeae4f80560190046d9c' => 
->>>>>>> origin/master
-=======
-  'ffc9c478f443827d747b67e968a64ff4' => 
->>>>>>> parent of 0c0d9ba... 4
+  'c6e839649e48ab9c15b7161c90a16700' => 
   array (
     'cfg' => 
     array (
@@ -32,15 +24,7 @@ $SES = array (
       'confirm' => '6',
       'exitURL' => './',
     ),
-<<<<<<< HEAD
-<<<<<<< HEAD
-    'time' => 1452518827,
-=======
-    'time' => 1452519099,
->>>>>>> origin/master
-=======
-    'time' => 1451825975,
->>>>>>> parent of 0c0d9ba... 4
+    'time' => 1452519728,
     'lng' => 'ru',
   ),
 );
