@@ -12,6 +12,10 @@ body {
     background-color: #EAE5E5;
     height: 100%;
 }
+a{
+    outline: none!important;
+}
+
 #probel{
     color: #EAE5E5;
 }
@@ -38,6 +42,12 @@ body {
     font-weight: bold;
     color: #8B8B8B;
 
+}
+#navbar li a:hover{
+    color:#61D0D4;
+}
+#navbar li a:active{
+    background-color: #EAE5E5;
 }
 .active>a{
     color: #61D0D4!important;

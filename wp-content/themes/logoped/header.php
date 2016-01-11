@@ -24,16 +24,15 @@
 					</div>
 				<div class="col-md-8">
 					<ul id="navbar" class="nav navbar-nav">
-                		<li class="active"><a href="#">ГЛАВНАЯ</a></li>
-               			<li><a href="#">О СЕБЕ</a></li>
-                 		<li><a href="#">О ЗАНЯТИЯХ</a></li>
-                 		<li><a href="#">СТОИМОСТЬ</a></li>
-                 		<li><a href="#">РОДИТЕЛЯМ</a></li>
-                 		<li><a href="#">NEW! ГРУППЫ</a></li>
-                 		<li><a href="#">СТАТЬИ</a></li>
-                 		<li><a href="#">ОТЗЫВЫ</a></li>
-                 		<li><a href="#">КОНТАКТЫ</a></li>
-
+                		<li class="<?php if(get_current_URL()=='http://logopedplus.in.ua/'){echo 'active';}; ?>"><a href="<?php bloginfo( 'url' ); ?>">ГЛАВНАЯ</a></li>
+               			<li class="<?php if(get_current_URL()==get_page_link(16)){echo 'active';}; ?>"><a href="<?php echo get_permalink(16)?>">О СЕБЕ</a></li>
+                 		<li class="<?php if(get_current_URL()==get_page_link(18)){echo 'active';}; ?>"><a href="<?php echo get_permalink(18)?>">О ЗАНЯТИЯХ</a></li>
+                 		<li class="<?php if(get_current_URL()==get_page_link(20)){echo 'active';}; ?>"><a href="<?php echo get_permalink(20)?>">СТОИМОСТЬ</a></li>
+                 		<li class="<?php if(get_current_URL()==get_page_link(22)){echo 'active';}; ?>"><a href="<?php echo get_permalink(22)?>">РОДИТЕЛЯМ</a></li>
+                 		<li class="<?php if(get_current_URL()==get_page_link(24)){echo 'active';}; ?>"><a href="<?php echo get_permalink(24)?>">NEW! ГРУППЫ</a></li>
+                 		<li class="<?php if(get_current_URL()==get_page_link(26)){echo 'active';}; ?>"><a href="<?php echo get_permalink(26)?>">СТАТЬИ</a></li>
+                 		<li class="<?php if(get_current_URL()==get_page_link(28)){echo 'active';}; ?>"><a href="<?php echo get_permalink(28)?>">ОТЗЫВЫ</a></li>
+                 		<li class="<?php if(get_current_URL()==get_page_link(30)){echo 'active';}; ?>"><a href="<?php echo get_permalink(30)?>">КОНТАКТЫ</a></li>
             		</ul>
 				</div>
 			</div>
