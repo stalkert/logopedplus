@@ -1,6 +1,10 @@
 <?php
 $SES = array (
+<<<<<<< HEAD
   '0f04f065562c7d064b6ed4a02cd8b609' => 
+=======
+  '64a2d3a06b38eeae4f80560190046d9c' => 
+>>>>>>> origin/master
   array (
     'cfg' => 
     array (
@@ -24,7 +28,11 @@ $SES = array (
       'confirm' => '6',
       'exitURL' => './',
     ),
+<<<<<<< HEAD
     'time' => 1452518827,
+=======
+    'time' => 1452519099,
+>>>>>>> origin/master
     'lng' => 'ru',
   ),
 );
