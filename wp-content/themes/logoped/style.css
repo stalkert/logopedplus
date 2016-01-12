@@ -68,7 +68,7 @@ a{
 #content{
     margin-top: 40px;
 }
-#content>div:last-child a{
+#content>div.head-page:last-child a{
     
     width:25%;
    padding: 12%;

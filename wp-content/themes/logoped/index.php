@@ -3,7 +3,7 @@
 				<div id="head-foto" class="col-md-5" >
 					<img src="<?php bloginfo( 'template_url' ); ?>/images/head-foto.jpg">
 				</div>
-				<div class="col-md-7">
+				<div class="col-md-7 head-page">
 					<h2>Услуги логопеда-психолога в г. Киеве</h2>
 					<a href="http://logopedplus.in.ua/cel" id="red">
 						<div>
