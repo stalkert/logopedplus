@@ -26,6 +26,7 @@
 					<ul id="navbar" class="nav navbar-nav">
                 		<li class="<?php if(get_current_URL()=='http://logopedplus.in.ua/'){echo 'active';}; ?>"><a href="<?php bloginfo( 'url' ); ?>">ГЛАВНАЯ</a></li>
                			<li class="<?php if(get_current_URL()==get_page_link(16)){echo 'active';}; ?>"><a href="<?php echo get_permalink(16)?>">О СЕБЕ</a></li>
+               			<li class="<?php if(get_current_URL()==get_page_link(82)){echo 'active';}; ?>"><a href="<?php echo get_permalink(82)?>">УСЛУГИ</a></li>
                  		<li class="<?php if(get_current_URL()==get_page_link(18)){echo 'active';}; ?>"><a href="<?php echo get_permalink(18)?>">О ЗАНЯТИЯХ</a></li>
                  		<li class="<?php if(get_current_URL()==get_page_link(20)){echo 'active';}; ?>"><a href="<?php echo get_permalink(20)?>">СТОИМОСТЬ</a></li>
                  		<li class="<?php if(get_current_URL()==get_page_link(22)){echo 'active';}; ?>"><a href="<?php echo get_permalink(22)?>">РОДИТЕЛЯМ</a></li>
