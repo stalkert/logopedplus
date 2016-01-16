@@ -32,7 +32,7 @@
                  		<li class="<?php if(get_current_URL()==get_page_link(22)){echo 'active';}; ?>"><a href="<?php echo get_permalink(22)?>">РОДИТЕЛЯМ</a></li>
                  		<li class="<?php if(get_current_URL()==get_page_link(24)){echo 'active';}; ?>"><a href="<?php echo get_permalink(24)?>">NEW! ГРУППЫ</a></li>
                  		<li class="<?php if(get_current_URL()==get_page_link(26)){echo 'active';}; ?>"><a href="<?php echo get_permalink(26)?>">СТАТЬИ</a></li>
-                 		<li class="<?php if(get_current_URL()==get_page_link(28)){echo 'active';}; ?>"><a href="<?php echo get_permalink(28)?>">ОТЗЫВЫ</a></li>
+                 		<li class="<?php if(get_current_URL()==get_page_link(173)){echo 'active';}; ?>"><a href="<?php echo get_permalink(173)?>">ОТЗЫВЫ</a></li>
                  		<li class="<?php if(get_current_URL()==get_page_link(30)){echo 'active';}; ?>"><a href="<?php echo get_permalink(30)?>">КОНТАКТЫ</a></li>
             		</ul>
 				</div>
