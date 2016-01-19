@@ -173,6 +173,13 @@ a#yellow:hover {
 .circle{
     border-radius: 50%;
 }
-.css_form_link, form>div.css_form_textfieldspace:nth-child(3),div.css_guestbook_font_color>div.css_form_successmessage{
+.css_form_link, form>div.css_form_textfieldspace:nth-child(3),div.css_guestbook_font_color>div.css_form_successmessage,.css_post_header4{
     display:none;
+}
+.css_post_header1{
+    font-size: 18px!important;
+    color:#ff0066;
+}
+.css_post_message,.css_form_text,.css_form_messagefield{
+    font-size: 16px!important;
 }
