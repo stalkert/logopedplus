@@ -1,3 +1,5 @@
+
+
 body {
     margin: 0;
     font-family:Arial,serif,Verdana, Helvetica, sans-serif;
@@ -147,4 +149,17 @@ a#yellow:hover {
     color:#fff;
     text-decoration: none;
     font-size: 0.9em;
+}
+@media screen and (max-width: 767px) {
+   #content>div:last-child a {
+    width: 20%;
+    padding: 10%;
+    }
+    #content>div:last-child a div span {
+    
+    font-size: 0.9em;
+    }
+    #content>div:last-child a div {
+    top: 43%;
+    }
 }

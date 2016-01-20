@@ -183,3 +183,16 @@ a#yellow:hover {
 .css_post_message,.css_form_text,.css_form_messagefield{
     font-size: 16px!important;
 }
+@media screen and (max-width: 767px) {
+   #content>div.head-page:last-child a {
+    width: 20%;
+    padding: 10%;
+    }
+    #content>div.head-page:last-child a div span {
+    
+    font-size: 0.9em;
+    }
+    #content>div:last-child a div {
+    top: 41%;
+    }
+}
