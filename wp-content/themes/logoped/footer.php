@@ -20,9 +20,9 @@
 							<span class="glyphicon glyphicon-plus"></span>
 						</div>
 						<p>Я в соц. сетях</p>
-							<div><img src="<?php bloginfo( 'template_url' ); ?>/images/facebook.png" alt="Я  в Фейсбуке">
-								<img src="<?php bloginfo( 'template_url' ); ?>/images/twitter.png" alt=" Я в Твиттере">
-								<img src="<?php bloginfo( 'template_url' ); ?>/images/google.png" alt=" Я в Гугл +">	
+							<div>
+								<a href="https://www.facebook.com/profile.php?id=100009993903260"><img src="<?php bloginfo( 'template_url' ); ?>/images/facebook.png" alt="Я  в Фейсбуке"></a>
+								<a href="https://vk.com/id147334493"><img src="<?php bloginfo( 'template_url' ); ?>/images/twitter.png" alt=" Я в Вконтакте"></a>
 							</div>
 					</div>
 
